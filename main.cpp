@@ -6,7 +6,7 @@ void prnMenu(){
 	cout<<"* 1. 삽입    2. 삭제    3. 출력   4. 종료 *"<<endl;
 	cout<<"*******************************************"<<endl;
 	cout<<endl;
-	cout<<"원하시는 메뉴를 골라주세요: ";
+	cout<<"Choose what you want: ";
 }
 
 int main(){
