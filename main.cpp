@@ -6,7 +6,7 @@ void prnMenu(){
 	cout<<"* 1. add    2. delete    3. print   4. end *"<<endl;
 	cout<<"*******************************************"<<endl;
 	cout<<endl;
-	cout<<"원하시는 메뉴를 골라주세요: ";
+	cout<<"Choose what you want: ";
 }
 
 int main(){
@@ -14,7 +14,7 @@ int main(){
 		LinkedList<int> *p;
 		bool flag = false;
 
-		cout<<"자료구조 선택(1: Stack, Other: Linked List): ";
+		cout<<"Choose data structure(1: Stack, Other: Linked List): ";
 		cin>>mode;
 						    
 		if(mode == 1)
